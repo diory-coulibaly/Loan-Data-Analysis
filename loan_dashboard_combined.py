@@ -11,7 +11,7 @@ st.title("Loan Data Analysis Dashboard")
 # 📷 Quick preview of expected CSV format
 from PIL import Image
 image = Image.open("loan Data.JPG")
-st.image(image, caption="credit.policy: 1 if the customer meets the credit underwriting criteria and 0 otherwise.", use_container_width=True, output_format="JPEG")
+st.image(image, caption="", use_container_width=True, output_format="JPEG")
 
 
 @st.cache_data
