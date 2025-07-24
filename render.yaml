@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: loan_dashboard_combined
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run loan_dashboard_combined.py --server.port 8080 --server.enableCORS false
