@@ -10,7 +10,7 @@ st.title("Loan Data Analysis Dashboard")
 
 # 📷 Quick preview of expected CSV format
 from PIL import Image
-image = Image.open("loan Data.JPG")
+image = Image.open("loanData.JPG")
 st.image(image, caption="", use_container_width=True, output_format="JPEG")
 
 
